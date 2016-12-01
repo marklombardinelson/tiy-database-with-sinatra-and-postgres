@@ -1,9 +1,9 @@
-- landing page
-  - some descriptive text
-- Nav bar
-- Employees link (to an employees URL)
-- employee URL (second page)
-  - table
+- X landing page
+  - X some descriptive text
+- X Nav bar
+- X Employees link (to an employees URL)
+- X employee URL (second page)
+  - X table
     - name
     - address
     - position

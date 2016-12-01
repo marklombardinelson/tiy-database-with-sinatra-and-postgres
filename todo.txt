@@ -1,0 +1,14 @@
+- landing page
+  - some descriptive text
+- Nav bar
+- Employees link (to an employees URL)
+- employee URL (second page)
+  - table
+    - name
+    - address
+    - position
+    - salary
+    - slack
+    - github
+    - phone
+    - Link to show

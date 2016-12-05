@@ -31,3 +31,12 @@ post "/create_employee" do
 
   redirect to("/employees")
 end
+
+post "/search_employee" do
+  search = params["search"]
+
+  database = PG.connect(dbname: 'tiy-database')
+  @rows = database.exec('SELECT * FROM employees where name = $1 or slack =$1 or github =$1', [search])
+
+  erb :search_employee
+end
